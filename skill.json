@@ -1,0 +1,56 @@
+{
+  "name": "ab-test-calculator-skill",
+  "version": "1.0.0",
+  "description": "Calculate statistical significance, p-value, and confidence intervals for e-commerce A/B test conversion rate results.",
+  "author": "alphaparkinc",
+  "category": "analytics",
+  "tags": [
+    "ab-testing",
+    "calculator",
+    "statistics",
+    "conversion",
+    "experimentation"
+  ],
+  "inputs": {
+    "visitors_a": {
+      "type": "integer",
+      "description": "Control group (A) total visitors."
+    },
+    "conversions_a": {
+      "type": "integer",
+      "description": "Control group (A) conversions."
+    },
+    "visitors_b": {
+      "type": "integer",
+      "description": "Variant group (B) total visitors."
+    },
+    "conversions_b": {
+      "type": "integer",
+      "description": "Variant group (B) conversions."
+    }
+  },
+  "outputs": {
+    "p_value": {
+      "type": "number",
+      "description": "Calculated p-value (probability of null hypothesis)."
+    },
+    "is_significant": {
+      "type": "boolean",
+      "description": "Whether the result is statistically significant at 95% confidence."
+    },
+    "conversion_rate_a": {
+      "type": "number",
+      "description": "Group A conversion rate."
+    },
+    "conversion_rate_b": {
+      "type": "number",
+      "description": "Group B conversion rate."
+    },
+    "relative_uplift": {
+      "type": "number",
+      "description": "Relative conversion improvement percentage."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
