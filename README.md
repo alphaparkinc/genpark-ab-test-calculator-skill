@@ -1,4 +1,4 @@
-# ab-test-calculator-skill
+# genpark-ab-test-calculator-skill
 
 > **GenPark AI Agent Skill** -- Two-tailed Z-score A/B test statistical calculator.
 
