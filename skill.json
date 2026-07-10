@@ -1,8 +1,8 @@
 {
   "name": "ab-test-calculator-skill",
   "version": "1.0.0",
-  "description": "Calculate statistical significance, p-value, and confidence intervals for e-commerce A/B test conversion rate results.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Calculate statistical significance, p-value, and confidence intervals for e-commerce A/B test conversion rate results.",
+  "author": "genpark",
   "category": "analytics",
   "tags": [
     "ab-testing",
